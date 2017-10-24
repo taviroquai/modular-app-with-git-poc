@@ -18,7 +18,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Module1 />
-        <Module2 />
+        <Module2 foo={foo} bar={bar} />
       </div>
     );
   }
