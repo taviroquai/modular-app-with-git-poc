@@ -6,6 +6,8 @@ import Module2 from './Module2'
 
 class App extends Component {
   render() {
+    const foo = 1;
+    const bar = 2;
     return (
       <div className="App">
         <header className="App-header">
